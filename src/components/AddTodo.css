@@ -1,0 +1,18 @@
+.todo-title {
+    text-align: center;
+    color: #e7f6f2;
+    padding-bottom: 20px;
+}
+.add-todo-form {
+    display: flex;
+    flex-direction: column;
+}
+.add-todo-form input {
+    border-radius: 5px;
+    border: none;
+}
+.add-todo-form input,
+.add-todo-form .btn {
+    padding: 10px;
+    margin: 10px 0;
+}

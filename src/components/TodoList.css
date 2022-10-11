@@ -1,0 +1,41 @@
+.single-todo {
+    width: 450px;
+    background-color: #395b64;
+    color: #e7f6f2;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+}
+span {
+    font-size: 14px;
+    opacity: 0.7;
+    padding: 5px 0 10px 0;
+    display: inline-block;
+}
+.close-btn {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    background-color: #a5c9ca;
+    color: #395b64;
+    border: none;
+    transition: 150ms;
+}
+.close-btn:hover {
+    background-color: #e7f6f2;
+    color: #395b64;
+    cursor: pointer;
+}
+@media screen and (max-width: 769px) {
+    .single-todo {
+        width: 350px;
+    }
+    .close-btn {
+        color: #395b64;
+    }
+}

@@ -1,0 +1,23 @@
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    width: 480px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #395b64;
+    position: relative;
+}
+@media screen and (max-width: 769px) {
+    .modal {
+        width: 360px;
+    }
+}
